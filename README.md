@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dockerized Python Version Application
 
 This project demonstrates a simple Dockerized Python application using the official Python 3.12 Slim image.
@@ -56,3 +57,7 @@ Then add:
 
 ## Author
 Puneet Khandelwal
+=======
+# Dockerdemo1
+this is my demo repo of docker
+>>>>>>> ac0568b6ae77b42af61e2cae7ecf875e508df631

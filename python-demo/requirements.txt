@@ -1,0 +1,2 @@
+# Python dependencies for the demo
+# No external packages are required for this simple example.
