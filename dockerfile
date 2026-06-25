@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 FROM python:3.11-slim
 
 # Java Installation
@@ -33,3 +34,16 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 CMD ["spark-submit", "app.py"]
+=======
+# Base Image
+FROM python:3.12-slim
+
+# Set Working Directory
+WORKDIR /app
+
+# Copy Application
+COPY app.py .
+
+# Run Application
+CMD ["python", "app.py"]
+>>>>>>> 21d04f29e89c3a9f24b1752e708d1bb8b7a78978
