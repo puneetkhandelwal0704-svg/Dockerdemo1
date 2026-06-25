@@ -1,2 +1,5 @@
-# Python dependencies for the demo
-# No external packages are required for this simple example.
+pyspark==3.5.6
+pandas
+jupyterlab
+findspark
+pyarrow
